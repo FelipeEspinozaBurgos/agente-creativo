@@ -1,0 +1,161 @@
+@use 'header';
+@use 'footer';
+
+
+$black: #333;
+$black1: #444;  
+$white: #fff; //Texto principal
+$white2:#CCCCCC; // Define colores de texto secundarios, bordes
+$navy: #001F3F; // Define color de fondo
+$btns: #6A0DAD;// Define button colors 
+$azul1:#7FDBFF; // Define hovers efects
+$verde: #2ECC40; // Define Indicadores de éxito, notificaciones
+$naranja: #FF851B; // Define Indicadores de advertencia
+
+$fuentes: 'Montserrat', sans-serif; 
+$fuentes2: 'Open Sans', sans-serif; 
+
+$Vertices: 5px; // Define border radius
+  
+    *{ //formato de los elementos
+      margin: 0;
+      padding: 0;      
+    }
+    body { //Estilos generales
+      font-family: $fuentes;
+      background-color: $navy;
+      color: $white2;
+    }
+    main{//contenedor de la pagina
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .intro{//contenedor de la seccion principal
+      margin-top: 20%;
+    }
+    h2 {
+      margin-bottom: 0px;
+    }
+    .input-container {//contenedor de los inputs y botones
+            display: flex;
+            margin: 0 auto;
+            justify-content: center;
+            padding: 20px 0;
+        }
+    input[type="text"] { //input de texto
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid $black1;
+            border-radius: $Vertices 0 0 $Vertices;
+            font-family: $fuentes2;
+            background-color: $white2;
+            transition: border-color 0.3s;
+
+            &:focus {
+                border-color: $btns;
+                outline: none;
+            }
+        }        
+    button {//contenedor de los botones 
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: $btns;
+            color: #FFFFFF;
+            border: none;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+            font-family: $fuentes;
+            transition: background-color 0.3s;
+
+            &:hover {
+                background-color: $azul1;
+            }
+    }
+    #resultados { //contenedor de los resultados generados 
+    background: rgb(204, 204, 204, .1);
+    padding: 20px;
+    border-radius: $Vertices;
+    backdrop-filter: blur(10px);    
+    }
+    .resultados-container {
+      display: flex;
+      margin-top: 20px;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+    }
+
+    pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    max-width: 100%;
+}
+
+    #fileInput {
+      margin-bottom: 10px;
+    }
+
+    // .instructions {
+    //   font-family: $fuentes2;
+    //   font-size: 16px;
+    //   color: $white2;
+    //   margin-bottom: 20px;
+    //   text-align:start;
+    // }
+
+    .prompt-final{
+      margin-top: 22%;
+    }
+    #promptFinal {
+      border-radius: 5px 0 0 5px;
+    }
+
+
+    .i-wrapper {
+            display: flex;
+            justify-content: space-between;
+        }
+    .info-icon-wrapper {
+            position: relative;
+            margin-left: 10px;
+        }
+        .info-icon-wrapper .fas {
+          display: block;
+          justify-content: flex-end;
+            font-size: 20px;
+            color: #7FDBFF;
+            cursor: pointer;
+        }
+        .tooltip {
+            display: none;
+            position: absolute;
+            transform: translateX(-100%);
+            background-color: rgb(0, 31, 63, .8);
+            color: $white2;
+            padding: 10px;
+            border-radius: $Vertices;
+            width: 250px;
+            z-index: 10;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            backdrop-filter: blur(10px);   
+            text-align: center;
+            font-size: 14px;
+        }
+        .info-icon-wrapper:hover .tooltip {
+            display: block;
+        }
+
+@media (max-width: 600px) {
+            
+            .info-icon-wrapper .fas {
+                font-size: 24px;
+            }
+            
+        } 
+   
+      
+    
+
+    

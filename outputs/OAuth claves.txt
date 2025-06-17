@@ -1,0 +1,3 @@
+"client_id":"716070437939-qenvfm4phdjn7n30i4i78arlr5n8d6ns.apps.googleusercontent.com
+
+"client_secret":"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"

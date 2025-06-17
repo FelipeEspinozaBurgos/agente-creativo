@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agente Creativo</title>
+  <meta name="description" content="Flujo de trabajo para generar prompts de imágenes con un agente inteligente.">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="sass/style.css">
+  
+</head>
+<body>
+  <header>
+      <div>Agente Creativo</div>
+      <!-- <div><a href="#">☼►</a></div> -->
+  </header>
+  <main>
+    <article>
+        <section class="intro">
+          <div class="i-wrapper">
+            <h2>Optimiza tus prompts con IA creativa</h2>
+                <div class="info-icon-wrapper">
+                    <i class="fas fa-info-circle">i</i>
+                    <div class="tooltip">Ingresa un prompt claro y específico para obtener mejores resultados. Ejemplo: "Diseña un logo minimalista para una cafetería".</div>
+                </div>
+            </div>
+          <div class="input-container">
+            <input type="text" id="textoManual" placeholder="Ingresa texto de la imagen/descripción, paleta de colores y concepto...">
+            
+            <button id="btnIniciar" disabled>Generar</button>
+          </div>
+        </section>
+        <!-- Sección de instrucciones" que se muestra en una ventana emergente al hacer hover sobre un boton de info. -->
+        <!-- <section class="instructions">
+          <h3>Instrucciones:</h3>
+          <ol>
+            <li>Ingresa el texto descriptivo de la imagen, paleta de colores y concepto.</li>
+            <li>El agente IA generará un prompt inicial.</li>
+            <li>Revisa y ajusta el prompt según tus necesidades.</li>
+            <li>Genera prompts adicionales para enriquecer tu búsqueda.</li>
+            <li>Descarga todos los prompts generados en un archivo.</li>
+          </ol>
+        </section> -->
+        <section class="resultados-container"><!-- Sección de resultados parciales -->
+         <div id="resultados"></div>
+        </section>
+        <section class="prompt-final">
+          <h2>Prompt Final:</h2>
+          <div class="input-container">
+          <input type="text" id="promptFinal" readonly></input>
+          <button id="btnDescargar" disabled>Descargar</button>
+          </div>
+        </section>       
+    </article>
+  </main>
+  <!-- <footer>
+    <div>&copy; Agente Creativo IA</div> <div>2025</div>
+  </footer>   -->
+  <script src="script.js"></script>
+  <script src="/js/tooltip.js"></script>
+</body>
+</html>

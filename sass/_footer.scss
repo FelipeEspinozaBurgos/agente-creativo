@@ -1,0 +1,22 @@
+$black: #333;
+$black1: #444;
+$white: #ccc;
+
+footer{
+    width: 100%;
+    margin: 0;
+    background-color: $black;
+    display: flex;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+    position: absolute;
+    bottom: 0;
+  }
+  footer div{
+    padding: 5px;
+    padding-inline: 200px;
+    font-size: 1.2rem;
+    font-weight: 900;
+  }
+ 

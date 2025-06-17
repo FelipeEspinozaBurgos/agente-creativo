@@ -1,0 +1,78 @@
+
+        === PASO 1 (Análisis Inicial) ===
+        ### Imagen Minimalista: Un espacio diáfano con una paleta de colores dominante de blanco y gris, destacando la simplicidad y la claridad. La composición es limpia y minimalista, con pocas formas y líneas, transmitiendo una atmósfera de calma y serenidad. El concepto central es la importancia de la simplicidad en el diseño.
+
+## Frase Principal: **Vivir con menos, reflexionar más**
+
+### Variaciones Sugeridas
+1. **Variación temática:** **Simplicidad es belleza**.
+2. **Variación emocional:** **Calmad y reflexiona**.
+3. **Variación conceptual:** **Ocultar lo innecesario, revelar lo esencial**.
+4. **Variación poética:** **Silencio y serenidad, un refugio interior**.
+5. **Variación filosófica:** **La menos es más, la menos es todo**.
+
+### Paleta de Colores
+- Blanco
+- Gris
+- Noces de beige
+
+Estas frases están diseñadas para ser breves, minimalistas y poéticas,
+        
+        === PASO 2 (Prompt Base) ===
+        Para crear imágenes minimalistas con inteligencia artificial basadas en los elementos principales, colores dominantes, atmósfera y concepto central, puedes usar las siguientes variaciones de prompts:
+
+### 1. **Variación Temática:**
+**Prompt:** "Un espacio diáfano con una paleta de colores dominante de blanco y gris, destacando la simplicidad y la claridad. La composición es limpia y minimalista, con pocas formas y líneas, transmitiendo una atmósfera de calma y serenidad. El concepto central es la importancia de la simplicidad en el diseño."
+
+**Variación Sugerida:** **"Simplicidad es belleza. Un espacio minimalista con blanco, gris y toques de beige, transmitiendo calma y reflexión."**
+
+### 2. **Variación Emocional:**
+**Prompt:** "Un espacio diáfano con una paleta de colores dominante de blanco y gris, destacando la simplicidad y la claridad. La composición es limpia y minimalista, con pocas formas y líneas, transmitiendo una atmósfera de calma y serenidad. El concepto
+        
+        === PASO 3 (Unifiacion de Prompts) ===
+        Para crear imágenes minimalistas con inteligencia artificial, puedes combinar los elementos principales, colores dominantes, atmósfera y concepto central de las variaciones de prompts de manera efectiva. Aquí tienes una variación integral que combina las mejores características de cada uno:
+
+**Prompt Integral:**
+**"Un espacio diáfano con una paleta de colores dominante de blanco, gris y toques de beige, destacando la simplicidad y la claridad. La composición es limpia y minimalista, con pocas formas y líneas, transmitiendo una atmósfera de calma, serenidad y reflexión. Combina elementos naturales como la madera o la piedra para realzar la funcionalidad y belleza inherente. El concepto central es la importancia de la simplicidad en el diseño y la creación de un ambiente relajante."**
+
+### Desglose de Elementos:
+1. **Espacio Diáfano:**
+   - **Prompts:** "Un espacio diáfano" (para una sensación de claridad y aire).
+
+2. **Paleta de Colores:**
+   - **Prompts:** "Blanco, gris y toques
+        
+        === PASO 4 (Ajuste Flux 1.1 / Mistyc 2.5) ===
+        Para crear imágenes minimalistas con inteligencia artificial, puedes combinar los elementos principales, colores dominantes, atmósfera y concepto central de las variaciones de prompts de manera efectiva. Aquí tienes una variación integral que combina las mejores características de cada uno:
+
+**Prompt Integral:**
+```
+"Un espacio diáfano con una paleta de colores dominante de blanco, gris y toques de beige, destacando la simplicidad y la claridad. La composición es limpia y minimalista, con pocas formas y líneas, transmitiendo una atmósfera de calma, serenidad y reflexión. Combina elementos naturales como la madera o la piedra para realzar la funcionalidad y belleza inherente. El concepto central es la importancia de la simplicidad en el diseño y la creación de un ambiente relajante."
+```
+
+### Desglose de Elementos:
+1. **Espacio Diáfano:**
+   - **Prompts:** "Un espacio diáfano" (para una sensación de claridad y aire).
+
+2. **Paleta de Colores:**
+   - **Prompts:** "Blanco, gris y
+        
+        === PASO 5 (Version Final Refinada) ===
+        Para crear imágenes minimalistas con inteligencia artificial, es crucial que los prompts sean específicos y descriptivos. Aquí tienes una variación integral del prompt anterior, resumida y enfocada en una explicación clara:
+
+**Prompt Integral Resumido:**
+```
+"Genera un espacio minimalista con una paleta de colores de blanco, gris y beige. La composición debe ser limpia y simple, evocando una atmósfera de calma y serenidad. Combina elementos naturales como la madera o la piedra para resaltar la funcionalidad y belleza inherente. El concepto central es la simplicidad en el diseño y la creación de un ambiente relajante."
+```
+
+### Desglose de Elementos:
+
+1. **Espacio Diáfano:**
+   - **Prompts:** "Genera un espacio minimalista" (para una sensación de claridad y aire).
+
+2. **Paleta de Colores:**
+   - **Prompts:** "Blanco, gris y beige" (para transmitir pureza, modernidad y calidez).
+
+3. **Composición Limpia y Simple:**
+   - **Prompts:**
+        
