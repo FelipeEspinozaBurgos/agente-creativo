@@ -11,7 +11,6 @@ Reescribe el prompt inicial en 5 pasos especificos:
 Con opción para descargar en un .txt los prompts generados
 
 
-▞▚ G █☰ █▀█ ▀█▀ █☰  ᑕ █▀▄ █☰ ▞▚ ▀█▀ █ ▀▄▀ ███
 
 ───────▄▀▀▀▀▀▀▀▀▀▀▄▄
 ────▄▀▀░░░░░░░░░░░░░▀▄
